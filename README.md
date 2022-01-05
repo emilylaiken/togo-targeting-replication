@@ -38,7 +38,7 @@ Code for machine learning from featurized mobile phone data, including matching 
 Code for targeting simulations, including producing targeting tables of all kinds, ROC curves and precision vs. recall curves, and analysis of social welfare. Replication code for the following tables and figures is included in this notebook:
 - Figure 1
 - Figure 2
-- Figure S2
+- Figure S2 Panel B
 - Figure S12
 - Figure S13
 - Table 1
