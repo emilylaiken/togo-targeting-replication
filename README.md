@@ -36,5 +36,24 @@ Code for machine learning from featurized mobile phone data, including matching 
 
 #### `4targeting.ipynb` 
 Code for targeting simulations, including producing targeting tables of all kinds, ROC curves and precision vs. recall curves, and analysis of social welfare. Replication code for the following tables and figures is included in this notebook:
+- Figure 1
+- Figure 2
+- Figure S2
+- Figure S12
+- Figure S13
+- Table 1
+- Table S1
+- Table S2
+- Table S3
+- Table S5
+- Table S13
+- Table S14
+- Table S15
+
+#### `5fairness.ipynb`
+Code for fairness audits of targeting algorithms across potentially sensitive characteristics. Replication code for the following tables and figures is included in this notebook:
+- Figure 3
+- Figure S4
+- Figure S5
 
 ## Data Structure
