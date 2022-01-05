@@ -70,3 +70,6 @@ Data files that are publically available are included in this repo; for datasets
 - `data/satellite`: Data for satellite-based poverty mapping. 
 - - `data/satellite/wealth.csv`: Tile-level relative wealth estimates from satellite imagery publicly available on the Humanitarian Data Exchange (https://data.humdata.org/dataset/relative-wealth-index)
 - - `data/satellite/pop.csv`: Tile-level population density estimates from satellite imagery publicly available on the Humanitarian Data Exchange (https://data.humdata.org/dataset/highresolutionpopulationdensitymaps-tgo)
+
+## Running the Code
+After installing the necessary packages, the code will run out of the box (using the data files located in the `data` subfolder). Outputs will be written to the `outputs` subfolder, divided into output folders for `ml`, `survey`, and `targeting`. Many of the figures and tables are not written to files but rather displayed only in the Jupyter notebooks.
