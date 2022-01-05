@@ -21,4 +21,17 @@ Code for all figures and tables that are generated from mainly from survey data,
 - Table S11
 - Table S16
 
+### `2satellite.ipynb'
+Code for aggregation of satellite-based wealth estimates and satellite-based population density estimates for high-resolution poverty mapping. Replication code for the following tables and figures is included in this notebook:
+- Figure S2 Panel A
+- Figure S8
+
+### `3ml.ipynb`
+Code for machine learning from featurized mobile phone data, including matching survey observations to mobile phone records, cross-validation for parameter selection and out-of-sample evaluation, and evaluating feature importances. Replication code for the following tables and figures is included in this notebook:
+- Figure S10
+- Figure S11
+- Table S4
+- Table S12
+- Table S19
+
 ## Data Structure
