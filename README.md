@@ -57,3 +57,9 @@ Code for fairness audits of targeting algorithms across potentially sensitive ch
 - Figure S5
 
 ## Data Structure
+Data files that are publically available are included in this repo; for datasets that are not publically available we have included synthetic (randomly generated) data in the same format and with the same schema. Synthetic data are produced with the notebook `data/generate_synthetic_data.ipynb'. The data files are as follows:
+- `data/survey2018.csv` and `data/survey2020.csv`: Synthetic data with the schema of the 2018 and 2020 survey datasets, respectively. The 2018 survey is a household survey dataset; the 2020 survey is at the individual level.
+- - `survey_indiv2018.csv: Synthetic individual-level survey data associated with the households from the 2018 survey dataset; used only to calculate mobile phone features.
+- `data/features2018.csv` and `data/features2020.csv`: Synthetic data representing a set of featurized mobile phone data. In this file features are randomly generated; in reality they are calculated from raw mobile phone records using open source library bandicoot. Features are provided for a subset of the phone numbers (observations) in each of the 2018 and 2020 synthetic survey datasets.
+- `single_feature2018.csv` and `single_feature2020.csv`: Synthetic data representing the "single mobile phone feature" used as a counterfactual targeting method in the paper. The single mobile phone feature is provided for the same set of phone numbers that are associated with full mobile phone featurization.
+- `inferred_home_location2018.csv` and `inferred_home_location2020.csv`: Synthetic data representing inferred home locations from mobile phone data. Here home locations are chosen at random; in reality they are inferred from raw mobile phone metadata. Home locations are provided for the same subset of survey observations that are associated with full mobile phone features; they are provided at the prefecture and canton level.
