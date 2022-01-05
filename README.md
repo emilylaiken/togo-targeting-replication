@@ -21,7 +21,7 @@ Code for all figures and tables that are generated from mainly from survey data,
 - Table S11
 - Table S16
 
-### `2satellite.ipynb'
+### `2satellite.ipynb`
 Code for aggregation of satellite-based wealth estimates and satellite-based population density estimates for high-resolution poverty mapping. Replication code for the following tables and figures is included in this notebook:
 - Figure S2 Panel A
 - Figure S8
