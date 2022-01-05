@@ -1,0 +1,6 @@
+Targeting Method,Targeting Method,Spearman,AUC,Accuracy,Precision,Recall
+prefecture_poverty,prefecture_poverty,0.116,0.0704,0.041,0.0703,0.0703
+canton_poverty,canton_poverty,0.1164,0.0599,0.0499,0.0873,0.0873
+phone_prefecture_poverty,phone_prefecture_poverty,0.1201,0.042,0.0385,0.0666,0.0666
+phone_canton_poverty,phone_canton_poverty,0.0627,0.036,0.0581,0.0992,0.0992
+phone_poverty,phone_poverty,0.0401,0.0207,0.0409,0.0706,0.0706

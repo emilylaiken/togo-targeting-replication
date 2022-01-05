@@ -1,0 +1,6 @@
+Targeting Method,Spearman,AUC,Accuracy,Precision,Recall
+phone_poverty,0.86,0.85,0.86,0.76,0.76
+phone_poverty_old_model_new_data,0.97,0.96,0.93,0.88,0.88
+phone_poverty_old_model_old_data,0.86,0.85,0.86,0.76,0.76
+prefecture_poverty,-0.03,0.47,0.55,0.22,0.22
+canton_poverty,-0.19,0.38,0.56,0.23,0.23

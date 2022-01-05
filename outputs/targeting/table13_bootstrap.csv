@@ -1,0 +1,10 @@
+Targeting Method,Targeting Method,Spearman,AUC,Accuracy,Precision,Recall
+prefecture_poverty,prefecture_poverty,0.1021,0.0631,0.0507,0.0881,0.0881
+canton_poverty,canton_poverty,0.1229,0.0553,0.0522,0.0909,0.0909
+single_feature,single_feature,0.097,0.0497,0.0603,0.104,0.104
+phone_poverty,phone_poverty,0.0371,0.0199,0.0511,0.0885,0.0885
+assetindex,assetindex,0.0474,0.0339,0.0239,0.0406,0.0406
+ppi,ppi,0.0359,0.0156,0.0275,0.0477,0.0477
+random,random,0.1212,0.069,0.0665,0.1145,0.1145
+formal_occupation,formal_occupation,0.1652,0.0864,0.0514,0.0888,0.0888
+occupation_poverty,occupation_poverty,0.094,0.0399,0.0438,0.0762,0.0762
