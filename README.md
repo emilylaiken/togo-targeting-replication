@@ -64,9 +64,9 @@ Data files that are publically available are included in this repo; for datasets
 - `data/single_feature2018.csv` and `data/single_feature2020.csv`: Synthetic data representing the "single mobile phone feature" used as a counterfactual targeting method in the paper. The single mobile phone feature is provided for the same set of phone numbers that are associated with full mobile phone featurization.
 - `data/inferred_home_location2018.csv` and `data/inferred_home_location2020.csv`: Synthetic data representing inferred home locations from mobile phone data. Here home locations are chosen at random; in reality they are inferred from raw mobile phone metadata. Home locations are provided for the same subset of survey observations that are associated with full mobile phone features; they are provided at the prefecture and canton level.
 - `data/shapefiles`: Shapefiles used for poverty mapping. Shapefiles are publicly available from the Humantiarian Data Exchange (https://data.humdata.org/dataset/togo-cod-ab). 
-- - `data/shapefiles/regions.geojson`: Shapefile for regions (admin-2 level)
-- - `data/shapefiles/prefectures.geojson`: Shapefile for prefectures (admin-3 level)
-- - `data/shapefiles/cantons.geojson`:  Shapefile for cantons (admin-4 level)
+- - `data/shapefiles/regions.geojson`: Shapefile for regions (admin-1 level)
+- - `data/shapefiles/prefectures.geojson`: Shapefile for prefectures (admin-2 level)
+- - `data/shapefiles/cantons.geojson`:  Shapefile for cantons (admin-3 level)
 - `data/satellite`: Data for satellite-based poverty mapping. 
 - - `data/satellite/wealth.csv`: Tile-level relative wealth estimates from satellite imagery publicly available on the Humanitarian Data Exchange (https://data.humdata.org/dataset/relative-wealth-index)
 - - `data/satellite/pop.csv`: Tile-level population density estimates from satellite imagery publicly available on the Humanitarian Data Exchange (https://data.humdata.org/dataset/highresolutionpopulationdensitymaps-tgo)
