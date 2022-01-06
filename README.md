@@ -8,53 +8,53 @@ All code is written in Jupyter Notebooks and raw Python, using Python version 3.
 
 #### `1survey.ipynb`
 Code for all figures and tables that are generated from mainly from survey data, including the calculation of the PMT and asset index, statistics on phone ownership, summary statistics from surveys, and information on weighting and response weights. Replication code for the following tables and figures is included in this notebook:
-- Figure S1
-- Figure S3
-- Figure S6
-- Figure S7
-- Figure S14
-- Figure S15
-- Table S7
-- Table S8
-- Table S9
-- Table S10
-- Table S11
-- Table S16
+- Supplementary Figure 1
+- Supplementary Figure 2
+- Supplementary Figure 3
+- Supplementary Figure 4
+- Supplementary Figure 10
+- Supplementary Figure 11
+- Supplementary Table 2
+- Supplementary Table 3
+- Supplementary Table 4
+- Supplementary Table 5
+- Supplementary Table 6
+- Supplementary Table 10
 
 #### `2satellite.ipynb`
 Code for aggregation of satellite-based wealth estimates and satellite-based population density estimates for high-resolution poverty mapping. Replication code for the following tables and figures is included in this notebook:
-- Figure S2 Panel A
-- Figure S8
+- Extended Data Figure 1 Panel A
+- Supplementary Figure 5
 
 #### `3ml.ipynb`
 Code for machine learning from featurized mobile phone data, including matching survey observations to mobile phone records, cross-validation for parameter selection and out-of-sample evaluation, and evaluating feature importances. Replication code for the following tables and figures is included in this notebook:
-- Figure S10
-- Figure S11
-- Table S4
-- Table S12
-- Table S19
+- Supplementary Figure 7
+- Supplementary Figure 8
+- Extended Data Table 3
+- Extended Data Table 6
+- Supplementary Table 13
 
 #### `4targeting.ipynb` 
 Code for targeting simulations, including producing targeting tables of all kinds, ROC curves and precision vs. recall curves, and analysis of social welfare. Replication code for the following tables and figures is included in this notebook:
 - Figure 1
 - Figure 2
-- Figure S2 Panel B
-- Figure S12
-- Figure S13
+- Extended Data Figure 1 Panel B
+- Extended Data Figure 4
+- Supplementary Figure 9
 - Table 1
-- Table S1
-- Table S2
-- Table S3
-- Table S5
-- Table S13
-- Table S14
-- Table S15
+- Extended Data Table 1
+- Extended Data Table 2
+- Extended Data Table 4
+- Supplementary Table 1
+- Supplementary Table 7
+- Supplementary Table 8
+- Supplementary Table 9
 
 #### `5fairness.ipynb`
 Code for fairness audits of targeting algorithms across potentially sensitive characteristics. Replication code for the following tables and figures is included in this notebook:
 - Figure 3
-- Figure S4
-- Figure S5
+- Extended Data Figure 2
+- Extended Data Figure 3
 
 ## Data Structure
 Data files that are publically available are included in this repo; for datasets that are not publically available we have included synthetic (randomly generated) data in the same format and with the same schema. Synthetic data are produced with the notebook `data/generate_synthetic_data.ipynb'. The data files are as follows:
